@@ -15,29 +15,123 @@
     <link rel="stylesheet" href="output.css" />
   </head>
   <body class="max-w-7xl mx-auto bg-primary text-white">
-    <section class="border px-[150px] w-full items-center gap-[100px] h-screen">
+    <section
+      class="flex px-[150px] w-full items-center justify-center gap-[100px] h-screen"
+    >
       <div class="h-fit">
         <div class="pb-[50px] flex flex-col gap-y-1">
           <h2 class="font-bold text-[38px]">Sign Up</h2>
           <p>What's trending today and what's good for you?</p>
 
-          <div id="instantFeedback">
-            <div
-              class="mt-3 instant-feedback flex flex-row p-3 rounded-xl text-base bg-red-600 text-white font-bold"
-            ></div>
-          </div>
+          <div
+            id="instantFeedback"
+            class="mt-3 instant-feedback flex flex-row p-3 rounded-xl text-base bg-red-500 text-white font-bold"
+          ></div>
+        </div>
 
-          <!-- Form - Start -->
-          <div id="formManager ">
-            <div class="flex flex-col gap-4 bg-amber-800">
-              <div class="flex border">
-                <label for="fullname" class="block text-base font-medium"
-                  >Full Name</label
-                >
+        <!-- Form - Start -->
+        <form id="formManager ">
+          <div class="flex flex-col gap-4">
+            <!-- Full Name -->
+            <div class="flex flex-col gap-2">
+              <label for="username" class="block text-base font-medium"
+                >Fullname</label
+              >
+              <div
+                class="flex items-center justify-start rounded-full bg-secondary"
+              >
+                <img
+                  src="../asset/user.svg"
+                  alt="user"
+                  class="w-6 h-6 ml-4 mr-3"
+                /><input
+                  type="text"
+                  placeholder="Fullname"
+                  id="name"
+                  class="w-[484px] h-[48px] py-3 text-white bg-secondary text-base placeholder:text-base placeholder:text-paragraph rounded-full focus:outline-none focus:ring-0 focus:font-semibold"
+                />
               </div>
             </div>
+
+            <!-- Username -->
+            <div class="flex flex-col gap-2">
+              <label for="username" class="block text-base font-medium"
+                >Username</label
+              >
+              <div
+                class="flex items-center justify-start rounded-full bg-secondary"
+              >
+                <img
+                  src="../asset/user.svg"
+                  alt="user"
+                  class="w-6 h-6 ml-4 mr-3"
+                /><input
+                  type="text"
+                  placeholder="Username"
+                  id="name"
+                  class="w-[484px] h-[48px] py-3 text-white bg-secondary text-base placeholder:text-base placeholder:text-paragraph rounded-full focus:outline-none focus:ring-0 focus:font-semibold"
+                />
+              </div>
+            </div>
+
+            <!-- Avatar -->
+            <div class="flex flex-col gap-2">
+              <label for="username" class="block text-base font-medium"
+                >Avatar</label
+              >
+              <div
+                class="flex items-center justify-start rounded-full bg-secondary"
+              >
+                <img
+                  src="../asset/user.svg"
+                  alt="user"
+                  class="w-6 h-6 ml-4 mr-3"
+                /><input
+                  type="text"
+                  placeholder="Avatar"
+                  id="name"
+                  class="w-[484px] h-[48px] py-3 text-white bg-secondary text-base placeholder:text-base placeholder:text-paragraph rounded-full focus:outline-none focus:ring-0 focus:font-semibold"
+                />
+              </div>
+            </div>
+
+            <!-- Password -->
+            <div class="flex flex-col gap-2">
+              <label for="username" class="block text-base font-medium"
+                >Password</label
+              >
+              <div
+                class="flex items-center justify-start rounded-full bg-secondary"
+              >
+                <img
+                  src="../asset/user.svg"
+                  alt="user"
+                  class="w-6 h-6 ml-4 mr-3"
+                /><input
+                  type="text"
+                  placeholder="Password"
+                  id="name"
+                  class="w-[484px] h-[48px] py-3 text-white bg-secondary text-base placeholder:text-base placeholder:text-paragraph rounded-full focus:outline-none focus:ring-0 focus:font-semibold"
+                />
+              </div>
+            </div>
+
+            <div class="flex flex-col gap-3.5 mt-[50px]">
+              <button class="btn-blue cursor-pointer text-base font-bold">
+                Create Account
+              </button>
+              <a
+                href="login.html"
+                class="btn-white cursor-pointer text-base font-bold"
+                >Sign In to My Account</a
+              >
+            </div>
           </div>
-        </div>
+        </form>
+      </div>
+
+      <div class="h-fit">
+        <h1 class="font-extrabold text-[120px]">Twitter.</h1>
       </div>
     </section>
   </body>
