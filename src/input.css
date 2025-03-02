@@ -7,6 +7,10 @@
   --color-secondary: #121316;
   --color-paragraph: #626262;
   --color-btnBlue: #1880e8;
+  --color-username: #5e6368;
+  --color-link: #1880e8;
+  --color-line: #1e1e1e;
+  --color-like: #f91880;
 }
 
 /* button blue */
@@ -49,3 +53,19 @@
   margin-left: 1px;
   box-shadow: 0px 18px 18px 0px rgba(24, 128, 232, 0.5);
 }
+
+/* CSS Profile Page */
+.btn-white-small {
+  background-color: #ffffff;
+  color: var(--color-primary);
+  font-weight: bold;
+  font-size: 14px;
+  padding: 6px 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: 0.3 ease, color 0.3 ease, box-shadow 0.3s ease;
+  box-shadow: 0px 0px 10px 5px rgba(1, 0, 3, 0.75);
+}
+

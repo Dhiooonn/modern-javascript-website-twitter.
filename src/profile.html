@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Twitter. | Register</title>
+    <!-- Link Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="output.css" />
+  </head>
+  <body class="max-w-7xl mx-auto bg-primary text-white">
+    <section class="px-[75px] min-w-fit flex justify-between">
+      <!-- Sidebar Left - Start -->
+      <div class="min-w-[230px]">
+        <a href="/">
+          <h2 class="font-bold text-[28px] py-[30px]">twitter.</h2>
+        </a>
+        <div class="flex flex-col gap-[30px]">
+          <a href="index.html" class="flex gap-4">
+            <img
+              src="../asset/home-hashtag.svg"
+              alt="home-hashtag"
+              class="w-7 h7"
+            />
+            <p class="text-xl">Home</p>
+          </a>
+
+          <a href="#" class="flex gap-4">
+            <img src="../asset/search-normal.svg" alt="search" class="w-7 h7" />
+            <p class="text-xl">Explore</p>
+          </a>
+
+          <a href="#" class="flex gap-4">
+            <img
+              src="../asset/notification.svg"
+              alt="notification"
+              class="w-7 h7"
+            />
+            <p class="text-xl">Notifications</p>
+          </a>
+
+          <a href="#" class="flex gap-4">
+            <img src="../asset/sms.svg" alt="sms" class="w-7 h7" />
+            <p class="text-xl">Messages</p>
+          </a>
+
+          <a href="#" class="flex gap-4">
+            <img src="../asset/note-add.svg" alt="Bookmarks" class="w-7 h7" />
+            <p class="text-xl">Bookmarks</p>
+          </a>
+
+          <a href="#" class="flex gap-4">
+            <img
+              src="../asset/crown-light.svg"
+              alt="Communities"
+              class="w-7 h7"
+            />
+            <p class="text-xl">Communities</p>
+          </a>
+
+          <a href="#" id="btnVisitMyProfile" class="flex gap-4">
+            <img
+              src="../asset/profile-circle.svg"
+              alt="profile"
+              class="w-7 h7"
+            />
+            <p class="text-xl">Profile</p>
+          </a>
+
+          <a href="login.html" class="flex gap-4">
+            <img src="../asset/group.svg" alt="signOut" class="w-7 h7" />
+            <p class="text-xl">Sign Out</p>
+          </a>
+
+          <a href="index.html" class="w-[200px]">
+            <span class="btn-blue cursor-pointer text-base font-bold"
+              >New Tweet</span
+            >
+          </a>
+        </div>
+      </div>
+      <!-- Sidebar Left - End -->
+
+      <!-- Feeds Content - Start -->
+      <div class="h-fit border-2 border-line">
+        <div class="relative border-b-2 border-line">
+          <div
+            class="bg-cover bg-center w-full h-[200px]"
+            style="background-image: url(../asset/cover.png)"
+          ></div>
+
+          <div class="absolute pl-5 top-[140px]">
+            <img
+              src="../asset/foto-profile.jfif"
+              id="ownerPhoto"
+              alt=""
+              srcset=""
+              class="object-cover w-[120px] h-[120px] rounded-full border-4 border-black"
+            />
+          </div>
+
+          <div class="px-5">
+            <div class="flex flex-col justify-start gap-3.5 px-[5] pt-[70px]">
+              <div class="flex justify-between items-center">
+                <div class="">
+                  <h3 id="userProfileName" class="text-[22px] font-bold">
+                    Dhionnn<img
+                      src="../asset/verify.png"
+                      alt=""
+                      srcset=""
+                      class="inline w-6 h-6 rounded-full"
+                    />
+                  </h3>
+                  <p id="userProfileUsername" class="text-username text-sm">
+                    @dhioonnn
+                  </p>
+                </div>
+
+                <a href="#">
+                  <span href="#" class="btn-white-small cursor-pointer"
+                    >Follow</span
+                  >
+                </a>
+              </div>
+
+              <p class="leading-[26px] text-sm">
+                Perkenalkan Nama saya Adalah Dhion <br />
+                saya adalah seorang UI/UX Designer & Front-End Developer
+              </p>
+
+              <div class="flex gap-5">
+                <div class="flex flex-col">
+                  <div class="flex gap-1.5">
+                    <img
+                      src="../asset/briefcase.svg"
+                      alt=""
+                      srcset=""
+                      class="w-[20px] h-[20px]"
+                    />
+                    <p class="text-base text-username">UI/UX Designer</p>
+                  </div>
+                  <div class="flex gap-1.5">
+                    <img
+                      src="../asset/briefcase.svg"
+                      alt=""
+                      srcset=""
+                      class="w-[20px] h-[20px]"
+                    />
+                    <p class="text-base text-username">Front-End Developer</p>
+                  </div>
+                </div>
+
+                <div class="flex gap-1.5">
+                  <img
+                    src="../asset/location.svg"
+                    alt=""
+                    srcset=""
+                    class="w-[20px] h-[20px]"
+                  />
+                  <p class="text-base text-username">Indonesia, Central Java</p>
+                </div>
+              </div>
+
+              <div class="flex gap-5">
+                <div>
+                  <span class="font-bold text-base">1</span>
+                  <span class="text-base text-username">Following</span>
+                </div>
+
+                <div>
+                  <span class="font-bold text-base">198,359</span>
+                  <span class="text-base text-username">Followers</span>
+                </div>
+              </div>
+
+              <div class="flex justify-between px-[10px]">
+                <a
+                  href="#"
+                  class="px-2.5 pb-3.5 text-base font-bold border-b-4 border-link"
+                  >Posts</a
+                >
+                <a href="#" class="px-2.5 pb-3.5 text-base text-username"
+                  >Replies</a
+                >
+                <a href="#" class="px-2.5 pb-3.5 text-base text-username"
+                  >Highlights</a
+                >
+                <a href="#" class="px-2.5 pb-3.5 text-base text-username"
+                  >Media</a
+                >
+                <a href="#" class="px-2.5 pb-3.5 text-base text-username"
+                  >Likes</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="twittsWrapper">
+          <div class="bg-primary p-4 border-b-2 border-line">
+            <div class="flex items-center justify-between">
+              <div class="flex items-center justify-start">
+                <img
+                  src="../asset/foto-profile.jfif"
+                  alt="search"
+                  srcset=""
+                  class="object-cover w-[46px] h-[46px] rounded-full"
+                />
+                <div class="pl-2">
+                  <div class="flex gap-1">
+                    <p class="text-base font-bold inline-block">
+                      Dhionnn
+                      <img
+                        src="../asset/verify.png"
+                        alt=""
+                        srcset=""
+                        class="inline w-5 h-5 rounded-full"
+                      />
+                    </p>
+                  </div>
+                  <p class="text-username text-sm">@dhioonnn • 2 Mar 2025</p>
+                </div>
+              </div>
+              <div
+                class="flex justify-center items-center rounded-full px-3 py-1.5 border-line border-2 gap-1.5"
+              >
+                <p class="text-sm font-semibold">🤩 Happy</p>
+              </div>
+            </div>
+
+            <p class="pl-[55px] py-2.5 leading-7 text-base">Mending turu😩</p>
+
+            <div class="flex justify-between items-center pl-[55px] w-[484px]">
+              <div class="flex justify-center items-center gap-2.5 pr-[250px]">
+                <a
+                  href="#"
+                  class="cursor flex justify-start items-center w-[93px] gap-1.5"
+                >
+                  <img class="like-icon" src="../asset/heart.svg" alt="like" />
+                  <p class="text-sm font-normal text-like">0 Likes</p>
+                </a>
+                <a
+                  href="#"
+                  class="cursor flex justify-start items-center w-[93px] gap-1.5"
+                >
+                  <img src="../asset/trash.svg" alt="delete" />
+                  <p class="text-sm font-normal text-username">Delete</p>
+                </a>
+                <a
+                  href="#"
+                  class="flex justify-start items-center w-[93px] gap-1.5"
+                >
+                  <img src="../asset/warning-2.svg" />
+                  <p class="text-sm font-normal text-username">Report</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Feeds Content - End -->
+
+      <!-- Browse -->
+      <div class="w-[320px]">
+        <div class="pl-[30px] flex flex-col gap-5 py-[30px]">
+          <div
+            class="flex items-center justify-start rounded-full bg-secondary"
+          >
+            <img
+              src="../asset/search-normal-dim.svg"
+              alt="search"
+              srcset=""
+              class="w-12 h-12 pl-4 mr-3"
+            />
+            <input
+              type="text"
+              placeholder="Search"
+              id="search"
+              class="w-[484px] h-[48px] py-3 text-white bg-secondary text-base placeholder:text-base placeholder:text-paragraph rounded-full focus:outline-none focus:ring-0 focus:font-semibold"
+            />
+          </div>
+
+          <div class="flex flex-col p-3.5 rounded-[16px] bg-secondary">
+            <div class="flex flex-col gap-6">
+              <h2 class="font-bold text-lg">You might like</h2>
+              <div class="flex justify-between items-center">
+                <div class="flex">
+                  <img
+                    src="../asset/girl1.png"
+                    alt=""
+                    class="w-[46px] h-[46px] rounded-full"
+                  />
+                  <div class="pl-2">
+                    <p class="text-base font-bold">
+                      Natasyaa
+                      <img
+                        src="../asset/verify.png"
+                        alt=""
+                        srcset=""
+                        class="inline w-5 rounded-full"
+                      />
+                    </p>
+                    <p class="text-username text-sm">@Natasya</p>
+                  </div>
+                </div>
+
+                <a href="#">
+                  <span href="#" class="btn-white-small cursor-pointer"
+                    >Follow</span
+                  >
+                </a>
+              </div>
+
+              <div class="flex justify-between items-center">
+                <div class="flex">
+                  <img
+                    src="../asset/man1.png"
+                    alt=""
+                    class="w-[46px] h-[46px] rounded-full"
+                  />
+                  <div class="pl-2">
+                    <p class="text-base font-bold">
+                      Masayoshi
+                      <img
+                        src="../asset/verify.png"
+                        alt=""
+                        srcset=""
+                        class="inline w-5 rounded-full"
+                      />
+                    </p>
+                    <p class="text-username text-sm">@masayoshi</p>
+                  </div>
+                </div>
+
+                <a href="#">
+                  <span href="#" class="btn-white-small cursor-pointer"
+                    >Follow</span
+                  >
+                </a>
+              </div>
+
+              <div class="flex justify-between items-center">
+                <div class="flex">
+                  <img
+                    src="../asset/girl2.png"
+                    alt=""
+                    class="w-[46px] h-[46px] rounded-full"
+                  />
+                  <div class="pl-2">
+                    <p class="text-base font-bold">
+                      Ramina
+                      <img
+                        src="../asset/verify.png"
+                        alt=""
+                        srcset=""
+                        class="inline w-5 rounded-full"
+                      />
+                    </p>
+                    <p class="text-username text-sm">@ramina</p>
+                  </div>
+                </div>
+
+                <a href="#">
+                  <span href="#" class="btn-white-small cursor-pointer"
+                    >Follow</span
+                  >
+                </a>
+              </div>
+
+              <a href="#" class="text-base font-medium text-link pl-2"
+                >Show more</a
+              >
+            </div>
+          </div>
+
+          <div class="flex flex-col rounded-[16px] bg-secondary">
+            <div class="flex flex-col py-3.5">
+              <h2 class="font-bold text-lg pb-[7px] px-3.5">
+                Which is trending
+              </h2>
+
+              <a
+                href="#"
+                class="flex justify-between items-center hover:bg-gray-800"
+              >
+                <div class="flex px-3.5 py-[7px]">
+                  <div class="">
+                    <p class="text-username text-sm">1 • Trending</p>
+                    <p class="text-base font-bold">
+                      Bahasa Pemrograman Javascript
+                    </p>
+                    <p class="text-username text-sm">25.7K posts</p>
+                  </div>
+                </div>
+              </a>
+
+              <a
+                href="#"
+                class="flex justify-between items-cente hover:bg-gray-800"
+              >
+                <div class="flex px-3.5 py-[7px]">
+                  <div class="">
+                    <p class="text-username text-sm">2 • Trending</p>
+                    <p class="text-base font-bold">kerja remote itu asik</p>
+                    <p class="text-username text-sm">20.1K posts</p>
+                  </div>
+                </div>
+              </a>
+
+              <a
+                href="#"
+                class="flex justify-between items-center hover:bg-gray-800"
+              >
+                <div class="flex px-3.5 py-[7px]">
+                  <div class="">
+                    <p class="text-username text-sm">3 • Trending</p>
+                    <p class="text-base font-bold">
+                      UI/UX Designer is powerfull
+                    </p>
+                    <p class="text-username text-sm">15K posts</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
